@@ -16,6 +16,6 @@ jobs:
           script: |
             cd /home/deploy/react-lab
             git pull origin main
-          docker build -t react-lab:latest .
-          docker rm -f react-lab || true
-          docker run -d --name react-lab --restart unless-stopped -p 8081:80 react-lab:latest
+            docker build -t react-lab:latest .
+            docker rm -f react-lab || true
+            docker run -d --name react-lab --restart unless-stopped -p 8081:80 react-lab:latest
