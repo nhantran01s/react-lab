@@ -434,3 +434,64 @@ body {
   line-height: 1.7;
 }
 
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 8%;
+  text-align: center;
+}
+
+.contact-section .section-label {
+  margin-bottom: 15px;
+}
+
+.contact-section h2 {
+  max-width: 750px;
+  margin: 0 auto 25px;
+
+  font-size: clamp(38px, 6vw, 64px);
+  line-height: 1.15;
+}
+
+.contact-description {
+  max-width: 650px;
+  margin: 0 auto 35px;
+
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer {
+  min-height: 90px;
+  padding: 25px 8%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid #1e293b;
+
+  color: #64748b;
+  font-size: 14px;
+}
+
+@media (max-width: 650px) {
+  .contact-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+  }
+}

@@ -219,6 +219,42 @@ function App() {
   </div>
 </section>
 
+<section id="contact" className="contact-section">
+  <p className="section-label">GET IN TOUCH</p>
+
+  <h2>Let's build something together.</h2>
+
+  <p className="contact-description">
+    I'm open to opportunities in System Administration, DevOps
+    and Cloud Infrastructure.
+  </p>
+
+  <div className="contact-actions">
+    <a
+      href="mailto:your-email@example.com"
+      className="btn primary"
+    >
+      Send Email
+    </a>
+
+    <a
+      href="https://github.com/nhantran01s"
+      target="_blank"
+      rel="noreferrer"
+      className="btn secondary"
+    >
+      GitHub
+    </a>
+  </div>
+</section>
+
+<footer className="footer">
+  <p>© 2026 Tran Nhan</p>
+
+  <p>
+    Built with React, Docker, Nginx & GitHub Actions
+  </p>
+</footer>
       </main>
     </div>
   )
