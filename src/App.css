@@ -360,3 +360,77 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.journey-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 8%;
+}
+
+.journey-section h2 {
+  font-size: 42px;
+  margin: 0 0 55px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 10px;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  bottom: 5px;
+  width: 2px;
+  background: #1e293b;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 7px;
+
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+  background: #38bdf8;
+
+  box-shadow: 0 0 0 6px rgba(56, 189, 248, 0.1);
+}
+
+.timeline-content {
+  background: #0b1220;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+
+  padding: 25px 28px;
+}
+
+.timeline-date {
+  color: #38bdf8;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.timeline-content h3 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+

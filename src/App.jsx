@@ -158,6 +158,67 @@ function App() {
   </div>
 </section>
 
+<section className="journey-section">
+  <p className="section-label">MY JOURNEY</p>
+  <h2>Experience & Learning Path</h2>
+
+  <div className="timeline">
+
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+
+      <div className="timeline-content">
+        <span className="timeline-date">2023 - 2024</span>
+        <h3>IT Helpdesk / System Support</h3>
+        <p>
+          Supported users, systems, networking, application services
+          and infrastructure operations.
+        </p>
+      </div>
+    </div>
+
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+
+      <div className="timeline-content">
+        <span className="timeline-date">System Administration</span>
+        <h3>Linux & Infrastructure</h3>
+        <p>
+          Practiced Linux administration, networking, Nginx,
+          databases and server deployment.
+        </p>
+      </div>
+    </div>
+
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+
+      <div className="timeline-content">
+        <span className="timeline-date">DevOps</span>
+        <h3>Docker & CI/CD</h3>
+        <p>
+          Built Dockerized applications and automated CI/CD pipelines
+          with GitHub Actions and Docker Hub.
+        </p>
+      </div>
+    </div>
+
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+
+      <div className="timeline-content">
+        <span className="timeline-date">Current Focus</span>
+        <h3>Cloud & Automation</h3>
+        <p>
+          Improving cloud infrastructure, monitoring, automation
+          and production deployment skills.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
       </main>
     </div>
   )
