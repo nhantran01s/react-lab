@@ -57,6 +57,60 @@ function App() {
     <div className="skill-card">Google Cloud</div>
   </div>
 </section>
+<section id="projects" className="projects-section">
+  <p className="section-label">MY WORK</p>
+  <h2>Featured Projects</h2>
+
+  <div className="projects-grid">
+
+    <div className="project-card">
+      <div className="project-number">01</div>
+
+      <h3>React CI/CD Pipeline</h3>
+
+      <p>
+        Automated CI/CD pipeline for a React application using
+        GitHub Actions, Docker, Docker Hub and Ubuntu Server.
+      </p>
+
+      <div className="project-tech">
+        <span>React</span>
+        <span>Docker</span>
+        <span>GitHub Actions</span>
+        <span>Nginx</span>
+      </div>
+
+      <div className="project-links">
+        <a href="#" target="_blank">GitHub →</a>
+        <a href="#" target="_blank">Live Demo →</a>
+      </div>
+    </div>
+
+    <div className="project-card">
+      <div className="project-number">02</div>
+
+      <h3>DevOps Portfolio Infrastructure</h3>
+
+      <p>
+        Portfolio deployed on Ubuntu Server with Docker,
+        Nginx reverse proxy, Cloudflare DNS and HTTPS.
+      </p>
+
+      <div className="project-tech">
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>Nginx</span>
+        <span>Cloudflare</span>
+      </div>
+
+      <div className="project-links">
+        <a href="#" target="_blank">GitHub →</a>
+        <a href="#" target="_blank">Live Demo →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
       </main>
     </div>
   )
