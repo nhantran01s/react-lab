@@ -31,7 +31,7 @@ jobs:
               -t nhantran2001/react-lab:${{ github.sha }} \
               .   
       - name: Push Docker image
-         run: |
+        run: |
            docker push nhantran2001/react-lab:latest
            docker push nhantran2001/react-lab:${{ github.sha }}
   deploy:
