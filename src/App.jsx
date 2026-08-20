@@ -118,8 +118,21 @@ function App() {
       </div>
 
       <div className="project-links">
-        <a href="#" target="_blank">GitHub →</a>
-        <a href="#" target="_blank">Live Demo →</a>
+        <a
+	  href="https://github.com/nhantran01s/react-lab"
+	  target="_blank"
+	  rel="noreferrer"
+	  >
+	  GitHub →
+	  </a>
+
+        <a
+	  href="https://react.nhanlab.site"
+	  target="_blank"
+	  rel="noreferrer"
+	  >
+	  Live Demo →
+	  </a>
       </div>
     </div>
 
