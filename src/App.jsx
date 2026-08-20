@@ -111,6 +111,53 @@ function App() {
 
   </div>
 </section>
+
+<section id="about" className="about-section">
+  <div className="about-left">
+    <p className="section-label">ABOUT ME</p>
+    <h2>Building systems.<br />Learning DevOps.</h2>
+  </div>
+
+  <div className="about-right">
+    <p>
+      I'm Tran Nhan, an IT professional focused on System Administration
+      and DevOps.
+    </p>
+
+    <p>
+      I enjoy building and deploying applications using Linux, Docker,
+      Nginx, GitHub Actions and cloud technologies.
+    </p>
+
+    <p>
+      Currently, I'm improving my skills in CI/CD, containerization,
+      cloud infrastructure and automation.
+    </p>
+
+    <div className="about-info">
+      <div>
+        <span>Focus</span>
+        <strong>System / DevOps</strong>
+      </div>
+
+      <div>
+        <span>Location</span>
+        <strong>Vietnam</strong>
+      </div>
+
+      <div>
+        <span>Experience</span>
+        <strong>IT Infrastructure</strong>
+      </div>
+
+      <div>
+        <span>Learning</span>
+        <strong>Cloud & Automation</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
       </main>
     </div>
   )
