@@ -7,6 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Show commit SHA
+        run: echo "Commit SHA = ${{ github.sha }}"
       - name: Checkout soucre
         uses: actions/checkout@v4
       - name: Setup Node.js
@@ -23,9 +25,15 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Docker iamge
-        run: docker build -t nhantran2001/react-lab:latest .
+        run: |
+          docker build \
+              -t nhantran2001/react-lab:latest \
+              -t nhantran2001/react-lab:${{ github.sha }} \
+              .   
       - name: Push Docker image
-        run: docker push nhantran2001/react-lab:latest
+         run: |
+           docker push nhantran2001/react-lab:latest
+           docker push nhantran2001/react-lab:${{ github.sha }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
