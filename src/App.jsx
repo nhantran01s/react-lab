@@ -81,7 +81,12 @@ function App() {
         Automated CI/CD pipeline for a React application using
         GitHub Actions, Docker, Docker Hub and Ubuntu Server.
       </p>
-
+	<div className="project-highlights">
+	  <span>✓ CI build & validation</span>
+	  <span>✓ Docker image build</span>
+	  <span>✓ Push to Docker Hub</span>
+	  <span>✓ Auto deploy to Ubuntu Server</span>
+</div>
       <div className="project-tech">
         <span>React</span>
         <span>Docker</span>

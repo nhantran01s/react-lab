@@ -574,3 +574,14 @@ body {
   display: flex;
   align-items: center;
 }
+
+.project-highlights {
+  display: grid;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.project-highlights span {
+  color: #94a3b8;
+  font-size: 14px;
+}
