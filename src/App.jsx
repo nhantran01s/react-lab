@@ -42,6 +42,21 @@ function App() {
             </a>
           </div>
         </section>
+<section id="skills" className="skills-section">
+  <p className="section-label">TECH STACK</p>
+  <h2>Skills & Tools</h2>
+
+  <div className="skills-grid">
+    <div className="skill-card">Linux</div>
+    <div className="skill-card">Docker</div>
+    <div className="skill-card">Nginx</div>
+    <div className="skill-card">Git & GitHub</div>
+    <div className="skill-card">GitHub Actions</div>
+    <div className="skill-card">MySQL</div>
+    <div className="skill-card">Cloudflare</div>
+    <div className="skill-card">Google Cloud</div>
+  </div>
+</section>
       </main>
     </div>
   )
