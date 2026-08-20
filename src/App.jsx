@@ -17,7 +17,10 @@ function App() {
       <main>
         <section className="hero">
           <p className="hero-label">Hello, I'm</p>
-
+	  <div className="status-badge">
+	  <span className="status-dot"></span>
+	  Open to System / DevOps opportunities
+	  </div>
           <h1>Tran Nhan</h1>
 
           <h2>System / DevOps Engineer</h2>
@@ -41,6 +44,12 @@ function App() {
               GitHub
             </a>
           </div>
+	  <div className="hero-stack">
+	  <span>Linux</span>
+	  <span>Docker</span>
+	  <span>GitHub Actions</span>
+	  <span>Google Cloud</span>
+	  </div>
         </section>
 <section id="skills" className="skills-section">
   <p className="section-label">TECH STACK</p>
